@@ -1,0 +1,20 @@
+{
+  "name": "somtoday-docent-dumper",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "dump": "tsc && node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "source-map": "^0.7.4",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.0",
+    "axios": "^1.3.4"
+  }
+}
